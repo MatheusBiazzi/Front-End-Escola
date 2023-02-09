@@ -1,4 +1,4 @@
-# Olá meu nome é Matheus H. Biazzi
+# Olá! Meu nome é Matheus H. Biazzi🧑‍🦰
 - Já realizei 2 anos de curso de inglês na Wizard e agora vou fazer mais 2 anos de curso de inglês na escola Knn;
 
 - Sou estudante do CEEP Pedro Boaretto Neto em Cascavel-Pr faço o curso Técnico em Desenvolvimento de Sistemas.
