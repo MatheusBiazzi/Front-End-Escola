@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h1{
+    color: rgb(200, 39, 18);
+    font-size: 3.9em;
+}
+p.titulo{
+    font-size: 20px;
+    text-align: center;
+}
+hr{
+    color: rgb(202, 71, 15);
+}
+h2{
+    color: blue;
+    text-align:center;
+    font-size: 2.5em;
+}
+p.um{
+    text-align: right;
+}
+ul{
+    font-size: 18px;
+    color: blue;
+}
+p.tres{
+    font-size: 30px;
+    color: blue;
+}
+
