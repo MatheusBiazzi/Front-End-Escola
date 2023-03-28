@@ -6,7 +6,8 @@
 - Já tendo realizado um curso de criação de sites no https://www.cursoemvideo.com/curso/html5-css3-modulo1/
 
 - E-mails para contato:  matheus.biazzi@escola.pr.gov.br e espectra8620@gmail.com 
-<a href="https://github.com/MatheusBiazzi/Front-End-Escola/blob/main/Atv-1/index.html"> Acessar site de carros vintage </a>
+
+<a href="https://matheusbiazzi.github.io/Front-End-Escola/Atv-1/index.html"> Acessar site de carros vintage </a>
 ## Para contato direto comigo acessar @MATHEUSHENRIQUEBIAZZI
 
 
