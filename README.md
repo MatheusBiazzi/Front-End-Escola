@@ -7,7 +7,6 @@
 
 - E-mails para contato:  matheus.biazzi@escola.pr.gov.br e espectra8620@gmail.com 
 
-<a href="Front-End-Escola\Atv-1\index.html"> -Acesse o site de carros vintage </a>
 ## Para contato direto comigo acessar @MATHEUSHENRIQUEBIAZZI
 
 
