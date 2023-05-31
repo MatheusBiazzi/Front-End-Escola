@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <div><img src="MHB2.png" alt="logo"></div>
+    </header>
+    <main>
+        <form>
+
+            <label for="nome">Nome e Sobrenome</label>
+            <input type="text" name="nome" id="nome" class="input-padrão" placeholder="Seu nome e Sobrenome" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="input-padrão" placeholder="seuemail@dominio.com" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone"
+            class="input-padrão" placeholder="(XX) XXXXX-XXXX" required>
+
+            <label for="msg">Mensagem</label>
+            <input type="text" name="msg" id="msg"
+            class="input-padrão" placeholder="Digite seu texto aqui!" required>
+
+            <section>
+                <p>Como prefere nosso contato</p>
+    
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>E-mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" checked>Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>Whatsapp</label>
+            </section>
+            <section>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+            <label for="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?
+            </label>
+            <div><input type="submit" value="Enviar Formulário" class="enviar"></div>
+        </form>
+    </main>
+    <footer>
+        <div><img src="MHB2.png" alt="logo"></div>
+        <p class="copyright"> &copy; Compyright -- Matheus Biazzi</p>
+    </footer>
+</body>
+</html>
