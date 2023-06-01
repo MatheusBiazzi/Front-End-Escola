@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #21c0c5, #5583EE);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:  55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 15px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;/*tirar a borda*/
+    border-bottom: 2px solid white;
+    outline: none;/*tirar linha de fora do input*/
+    color: #fff;
+    font-size: 1.3em;
+    width: 100%;/*comprimento da linha*/
+    letter-spacing: 1px;/*espaço entre cada caractere do input*/
+   
+}
+.labelinput{
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    pointer-events: none; 
+    transition: 5px; 
+    
+}
+.inputUser:valid ~ .labelinput{ 
+    top: -20px;
+    font-size: 1.2em;
+    color: dodgerblue;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#enviar{
+    background-image: linear-gradient(to right, rgb(0,92,192), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;/*Quando passar o mouse por cima do botão enviar, muda o cursor*/
+    border-radius: 10px;
+}
+#enviar:hover{
+    background-image: linear-gradient(to right, rgb(0,92,192), rgb(90,20,195));
+}
+
