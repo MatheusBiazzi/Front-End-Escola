@@ -1,0 +1,11 @@
+@charset "UTF-8";
+header{
+    background-color: #BB7C5E ;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+p{
+    text-align: center;
+}
