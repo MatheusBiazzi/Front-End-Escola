@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .cab{
     background-color: var(--branco);
     display: flex;
@@ -37,4 +38,15 @@
 .lista_menu_tit{
     color: rgb(200, 139, 66);
     font-weight: 800px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+    left: -120px;
+}
+header{
+    align-items: center;
 }

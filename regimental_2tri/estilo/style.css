@@ -5,8 +5,8 @@
     padding: 0px;
 }
 :root{
-    --cor-fundo: rgb(173, 103, 32);
-    --branco: white;
+    --cor-fundo: rgb(44, 44, 42);
+    --branco: rgb(133, 128, 128);
     --degrade: linear-gradient(rgb(214, 83, 214), rgb(33, 1, 33));
 
 }
@@ -15,11 +15,15 @@ body{
     font-size: 16px;
     font-weight: 400px;
 }
+h1{
+    text-align: center;
+    font-size: 2.7em;
+}
 main{
     margin: auto;
     border-radius: 0px 0px 5px 5px;
     padding: 10px;
-    background-color: rgb(38, 194, 194);
+    background-color: var(--branco);
     min-width: 300px;
     max-width: 1000px;
 }
@@ -30,4 +34,22 @@ main img.pequena{
     max-width: 350px;
     display: block;
     margin: auto;
+}
+header{
+    justify-content: space-between;
+}
+
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 15px;
+}
+footer > p{
+    font-size: 1.4em;
+    color: rgb(138, 19, 19);
+    
+    
+    
 }
