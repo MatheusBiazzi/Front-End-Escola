@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    flex-direction: row;
 }
 .conteiner{
     display: flex;
@@ -20,10 +21,11 @@
 .cab_menu{
     width: 24px;
     height: 24px;
-    background-image: url("../img/Menu.svg");
+    background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    left: 10px;
 }
 .conteiner_img{
     padding: 1em;
@@ -32,20 +34,24 @@
     display: none;
     position: absolute;
     top: 90%;
+    right: 0%;
     background-color: var(--branco);
-    width: 40vw;
+    width: 10vw;
 }
 .lista_menu_tit{
     color: rgb(200, 139, 66);
     font-weight: 800px;
+}
+ul{
+    text-decoration: none;
 }
 
 .logo{
     width: 100px;
     height: 100px;
     display: block;
-    position: relative;
-    left: -120px;
+    
+   
 }
 header{
     align-items: center;
