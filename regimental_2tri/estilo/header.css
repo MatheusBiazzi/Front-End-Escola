@@ -41,18 +41,12 @@
 .lista_menu_tit{
     color: rgb(200, 139, 66);
     font-weight: 800px;
-}
-ul{
-    text-decoration: none;
+    
 }
 
 .logo{
     width: 100px;
     height: 100px;
-    display: block;
-    
-   
-}
-header{
-    align-items: center;
+    display: block; 
+    top: 15px; 
 }

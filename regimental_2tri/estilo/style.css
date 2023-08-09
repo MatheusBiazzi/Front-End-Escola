@@ -8,7 +8,7 @@
     --cor-fundo: rgb(44, 44, 42);
     --branco: rgb(133, 128, 128);
     --degrade: linear-gradient(rgb(214, 83, 214), rgb(184, 53, 184));
-
+    list-style: none;
 }
 body{
     background-color: var(--cor-fundo);
