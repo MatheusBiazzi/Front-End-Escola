@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .cab{
-    background-color: var(--branco);
+    background-image: linear-gradient(to bottom, var(--cor_cab), var(--cor_cab1));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,14 +35,13 @@
     position: absolute;
     top: 90%;
     right: 0%;
-    background-color: var(--branco);
+    background-color: whitesmoke;
     width: 25vw;
     padding-left: 25px;
 }
 .lista_menu_tit{
-    color: rgb(200, 139, 66);
+    color: rgb(72, 47, 160);
     font-weight: 800px;
-    
 }
 .logo{
     width: 100px;
@@ -73,4 +72,19 @@
         display: block;
         font-size: 20px;
     }
+}
+.title, .paragrafo{
+    color: rgb(226, 223, 223);
+    font-style: italic;
+    margin-left: 50px;
+}
+h2{
+    text-indent: 5px;
+    color:rgb(226, 223, 223); 
+    
+}
+.lista_menu_item:hover{
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(111, 149, 230);
 }

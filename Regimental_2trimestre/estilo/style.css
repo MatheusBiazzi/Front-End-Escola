@@ -5,12 +5,12 @@
     padding: 0px;
 }
 :root{
-    --cor-fundo:  rgb(158, 156, 156);
-    --branco:  rgb(74, 74, 72);
-    --degrade: linear-gradient(rgb(214, 83, 214), rgb(184, 53, 184));
+    --cor_cab: #292929;
+    --cor_cab1: #49505B;
+    --cor_fundo: #D2D5DA; 
 }
 body{
-    background-color: var(--cor-fundo);
+    background-color: #B0B6BF;
     font-size: 16px;
     font-weight: 400px;
 }
@@ -22,9 +22,9 @@ main{
     margin: auto;
     border-radius: 0px 0px 5px 5px;
     padding: 10px;
-    background-color: white;
     min-width: 300px;
     max-width: 1000px;
+    background-image: linear-gradient(to top, var(--cor_cab), var(--cor_cab1));
 }
 main img{
     width: 100%;
@@ -36,11 +36,11 @@ main img.pequena{
 }
 footer{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #394457;
     padding: 10px;
     margin-top: 15px;
 }
 footer > p{
     font-size: 1.4em;
-    color: rgb(138, 19, 19); 
+    color: rgb(255, 255, 255); 
 }
