@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo JS </title>
+</head>
+<body>
+    <h1>Cálculo da Média</h1>
+    <script>
+        alert("Olá, a partir de agora faremos sua média na matéria de Banco de Dados")
+        var nome = String (prompt("Informe seu nome para prosseguirmos:"))
+        var nt1 = Number (prompt("Informe sua nota no 1ºTrimestre desse ano"))
+        var nt2 = Number (prompt("Informe sua nota no 2ºTrimestre desse ano"))
+        var nt3 = Number (prompt("Informe sua nota no 3ºTrimestre desse ano"))
+        var medf = (nt1+nt2+nt3)/3
+        if(medf>=60){
+            alert("Parabéns " +nome+ " Você foi aprovado com média:" + medf.toFixed(1))
+        }
+        else{
+            alert("Que pena " +nome+ " Você está reprovado! Sua média foi: "+medf.toFixed(1))
+        }
+</script>
+</body>
+</html>
