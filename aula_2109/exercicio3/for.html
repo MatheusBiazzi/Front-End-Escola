@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de For</title>
+</head>
+<body>
+    <script>
+        var i = 1
+        var qtd = Number (prompt("Quantos alunos deseja calcular a média?"))
+        for(i;i<=qtd;i++){
+        var aluno = String (prompt("Informe o nome do aluno:"))
+        var nt1 = Number (prompt("Informe sua nota no 1ºTrimestre desse ano"))
+        var nt2 = Number (prompt("Informe sua nota no 2ºTrimestre desse ano"))
+        var nt3 = Number (prompt("Informe sua nota no 3ºTrimestre desse ano"))
+        var medf = (nt1+nt2+nt3)/3
+    
+    if(medf>=60){
+        document.write("Parabéns " +aluno+ " você está aprovado! Sua média final foi: " +medf.toFixed(2)+"<br>")
+    }
+    else{
+        document.write("Você está reprovado " +aluno+ " estude mais no próximo ano! Sua média final foi: "+medf.toFixed(2)+"<br>")
+    }
+}
+    </script>
+</body>
+</html>
