@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula do dia 27/09</title>
+    <style>
+        body{
+            background-color: lightslategrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá DOM!</h1>
+    <p class="par1">Aqui é o paragráfo 1</p>
+    <p name="par2">Estudando <strong>DOM</strong> no JavaScript</p>
+    <div id="div1"><i>clique no link -></i></div>
+    <script>
+        //seleciona um objeto pela TAG
+        var p1= window.document.getElementsByTagName("p")[1]
+        p1.style.color = "yellow"
+        window.document.writeln("manipulando por tag ="+p1.innerText+"<br>")
+        window.document.write("manipulando por tag ="+p1.innerHTML+"<br>")
+        window.alert(p1.innerHTML)
+        window.alert(p1.innerText)
+        
+    </script>
+</body>
+</html>
