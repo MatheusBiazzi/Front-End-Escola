@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        body{
+            background-color: lightslategray;
+        }
+        div{
+            height: 250px;
+            width: 250px;
+            margin: auto;
+            margin-top: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: rgb(54, 52, 52);
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubra onde está o quadrado e teste suas funcionalidades</h1>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    </div>
+    <script>
+        function clicar(){
+            var a = window.document.getElementById('area')
+            a.innerText='Clicou'
+            a.style.background='green'
+            object.style.textAlign = "center"
+        }
+        function entrar(){
+            var e = window.document.getElementById('area')
+            e.innerText='Entrou'
+            e.style.background='red'
+        }
+        function sair(){
+            var s = window.document.getElementById('area')
+            s.innerText='Saiu'
+            s.style.background='yellow'
+        }
+    </script>
+</body>
+</html>
