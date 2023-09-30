@@ -7,7 +7,6 @@
 
 - E-mails para contato:  matheus.biazzi@escola.pr.gov.br e espectra8620@gmail.com 
 
-<a href="https://matheusbiazzi.github.io/Front-End-Escola/regimental_2tri/index.html" target="_blank" rel="external">Acesse um dos meus sites</a>
-## Para contato direto comigo acessar @MATHEUSHENRIQUEBIAZZI
+<a href="https://matheusbiazzi.github.io/Front-End-Escola/HTML_e_CSS/Regimental_2trimestre/index.html" target="_blank" rel="external">Acesse um dos meus sites</a>
 
 
