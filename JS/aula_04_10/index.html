@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de JS dia 04/10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Clique nos botões e descubra o site</h1>
+    <div>
+            <a href="https://www.amazon.com.br" target="_blank" rel="noopener noreferrer">
+                <button id="area1" onclick="clicar1()" onmouseenter="entrar1()" onmouseout="sair1()" class="bt">
+                </button>
+            </a>
+            <a href="https://www.reddit.com/?rdt=57855" target="_blank" rel="noopener noreferrer">
+                <button id="area2" onclick="clicar2()" onmouseenter="entrar2()" onmouseout="sair2()" class="bt">
+                </button>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                <button id="area3" onclick="clicar3()" onmouseenter="entrar3()" onmouseout="sair3()" class="bt">
+                </button>
+            </a>
+    </div>
+    <script>
+        // div1
+        function clicar1(){
+            var a = window.document.getElementById('area1')
+            a.innerText='Amazon'
+            a.style.background='#43894E'
+            object.style.textAlign = "center"
+        }
+        function entrar1(){
+            var e = window.document.getElementById('area1')
+            e.innerText='Clique e descubra o 1º Site'
+            e.style.background='#33673B'
+        }
+        function sair1(){
+            var s = window.document.getElementById('area1')
+            s.innerText='Tente novamente'
+            s.style.background='#69B574'
+        }
+        //div2
+        function clicar2(){
+            var a = window.document.getElementById('area2')
+            a.innerText='Reddit'
+            a.style.background='#7C6CB2'
+            object.style.textAlign = "center"
+        }
+        function entrar2(){
+            var e = window.document.getElementById('area2')
+            e.innerText='Clique e descubra o 2º Site'
+            e.style.background='#392F5A'
+        }
+        function sair2(){
+            var s = window.document.getElementById('area2')
+            s.innerText='Tente novamente'
+            s.style.background='#554686'
+        }
+        //div3
+        function clicar3(){
+            var a = window.document.getElementById('area3')
+            a.innerText='Youtube'
+            a.style.background='#84B5C2'
+            object.style.textAlign = "center"
+        }
+        function entrar3(){
+            var e = window.document.getElementById('area3')
+            e.innerText='Clique e descubra o 3º Site'
+            e.style.background='#335C67'
+        }
+        function sair3(){
+            var s = window.document.getElementById('area3')
+            s.innerText='Tente novamente'
+            s.style.background='#4A8696'
+        }
+        
+    </script>
+</body>
+</html>
