@@ -21,7 +21,7 @@
             <input type="button" value="Verificar" onclick="verificar()">
         </p>
         <div id="txt"></div>
-        <div id="img"></div>
+        <div id="imag"></div>
     </main>
     <script>
         function verificar() {
@@ -29,12 +29,15 @@
             const mas = document.getElementById("sexmas");
             const fem = document.getElementById("sexfem");
             const txt = document.getElementById("txt");
-            const imag = document.getElementById("img");
+            const imag = document.getElementById("imag")
 
+            imag.innerHTML = ''; 
+            
             if (age <= 17 && mas.checked) {
                 txt.innerHTML = "Você é um menino e têm " + age + " anos.";
-                //imag.innerHTML = im
-                imag.src = ""
+                const img = document.createElement('img');
+                imag.img.src = 'tst.png';
+                container.appendChild(img);
             }
             if(age >=17 && mas.checked){
                 txt.innerHTML = "Você é um homem e têm " + age + " anos.";
