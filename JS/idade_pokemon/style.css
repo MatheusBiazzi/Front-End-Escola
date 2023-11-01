@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    background-color: lightskyblue;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+#txt{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+}

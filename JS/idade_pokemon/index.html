@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Estágios da evolução...</h1>
+    <main>
+        <form action="">
+            <p>
+                <label for="iage">Informe sua idade:</label>
+                <input type="number" name="iage" id="iage" min="0" max="150" value="15">
+            </p>
+            <p>
+                <label for="">Sexo:</label>
+                <input type="radio" name="sex" id="sexmas" checked>
+                <label for="sexmas">Masculino</label>
+                <input type="radio" name="sex" id="sexfem">
+                <label for="sexfem">Feminino</label>
+            
+            </p>
+            <p>
+                <input type="button" value="Descubra sua fase" onclick="verificar()" class="btn">
+            </p>
+            <div id="txt"></div>
+            <div>
+                <img id="imagem" src="" alt="" srcset="">
+            </div>
+        </form>
+    </main>
+    <script>
+        function verificar() {
+            const age = document.getElementById("iage").value;
+            const mas = document.getElementById("sexmas");
+            const fem = document.getElementById("sexfem");
+            const txt = document.getElementById("txt"); 
+            
+            if (age <= 17 && mas.checked) {
+                txt.innerHTML = "Você é um menino e têm " + age + " anos.";
+                imagem.src = 'imgs/pkm3.png';
+            }
+            if(age >=17 && mas.checked){
+                txt.innerHTML = "Você é um homem e têm " + age + " anos.";
+                imagem.src = 'imgs/pkm2.png';
+            }
+            if(age>=59 && mas.checked){
+                txt.innerHTML = "Você é um senhor e têm " + age + " anos.";
+                imagem.src = 'imgs/pkm1.png';
+            }
+
+            if (age <= 17 && fem.checked) {
+                txt.innerHTML = "Você é uma menina e têm " + age + " anos.";
+                imagem.src = 'imgs/pkf3.png';
+
+            } 
+            if(age >=17 && fem.checked){
+                txt.innerHTML = "Você é uma mulher e têm " + age + " anos.";
+                imagem.src = 'imgs/pkf2.png';
+            }
+            if(age>=59 && fem.checked){
+                txt.innerHTML = "Você é uma senhora e têm " + age + " anos.";
+                imagem.src = 'imgs/pkf1.png';
+            }
+        }
+    </script>
+</body>
+</html>
