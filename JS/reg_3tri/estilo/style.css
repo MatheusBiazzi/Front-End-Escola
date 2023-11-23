@@ -1,31 +1,72 @@
 @charset "UTF-8";
-.content_animes{
-    background-color: rgb(202, 6, 6);
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    top: 25%;
-}
-button{
-   text-align: center;
-   margin: auto;
-}
+@font-face {
+    font-family: 'Anime';
+    src: url('../fontes/anime.ttf') format('truetype');
 
-img{
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+}
+:root{
+    --cor1: #FF5570;
+    --cor2: #031746;
+    --cor3: #ff557190;
+    --cor4: #031746a2;
+    }
+header{
+    background-image: linear-gradient(to right,var(--cor1), var(--cor2)); 
+    text-align: center;
+}
+header > h1{
+    text-align: center;
+    font-family: 'Anime';
+    font-size: 30px;
+    padding: 15px;
 }
 body{
-    background-color: blue;
+    background: black url('../imagens/fundo.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 main{
     margin: auto;
-    width: 1000px;
-    height: 1000px;
-    background-color: aquamarine;
+    width: 770px;
+    height: 400px;
+    background-image: linear-gradient(to right,var(--cor3), var(--cor4)); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px ;
 }
 div{
-    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    display: block;
+    align-items: baseline;
 }
+button{
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+}
+img{
+    width: 13vh;
+    height: 13vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+img:hover{
+    width: 19vh;
+    height: 19vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+}
+footer > p{
+    color: white;
+}
+
