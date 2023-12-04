@@ -17,7 +17,7 @@ header{
 header > h1{
     text-align: center;
     font-family: 'Anime';
-    font-size: 30px;
+    font-size: 26px;
     padding: 15px;
 }
 body{
@@ -65,8 +65,10 @@ img:hover{
 }
 footer{
     text-align: center;
+    margin-top: 100px;
 }
 footer > p{
     color: white;
+
 }
 

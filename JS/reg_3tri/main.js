@@ -1,4 +1,4 @@
-//amaterasu
+/*//amaterasu
 function falaAmaterasu(){
     document.querySelector("#fala_amat").play();
 }
@@ -32,4 +32,22 @@ document.querySelector(".fala6").onclick =falaRasegan;
 function falaChidori(){
     document.querySelector("#fala_chid").play();
 }
-document.querySelector(".fala7").onclick =falaChidori;
+document.querySelector(".fala7").onclick =falaChidori;*/
+function playAudio(audioId) {
+    const audioElement = document.querySelector("#" + audioId);
+    const allAudioElements = document.querySelectorAll("audio");
+    allAudioElements.forEach(function(element) {
+        if (!element.paused) {
+            element.pause();
+        }
+    });
+    audioElement.play();
+}
+const audioFiles = ["fala_amat", "fala_stensei", "fala_kagu", "fala_kame", "fala_laught", "fala_rase", "fala_chid"];
+for (let i = 0; i < audioFiles.length; i++) {
+    const audioId = audioFiles[i];
+    const selector = ".fala" + (i + 1);
+    document.querySelector(selector).onclick = function() {
+        playAudio(audioId);
+    };
+}

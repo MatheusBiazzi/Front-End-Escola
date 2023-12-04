@@ -1,4 +1,4 @@
-
+/*
 //aplausos
 function tocaSomAplausos(){
     document.querySelector("#som_tecla_aplausos").play();
@@ -51,8 +51,8 @@ function tocaSomVitoria(){
     document.querySelector("#som_tecla_vitoria").play();
 }
 document.querySelector(".tecla_vitoria").onclick = tocaSomVitoria;
-/*
 
+*/
 function tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
@@ -65,4 +65,4 @@ while(contador< lista.length){
         tocaSom(idAudio);
     }
     contador++;
-}*/
+}
