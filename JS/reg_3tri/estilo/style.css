@@ -2,7 +2,6 @@
 @font-face {
     font-family: 'Anime';
     src: url('../fontes/anime.ttf') format('truetype');
-
 }
 :root{
     --cor1: #FF5570;
